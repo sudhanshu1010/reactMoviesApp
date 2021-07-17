@@ -1,0 +1,38 @@
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie-table-container {
+    width: calc(100vw - 200px);
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(rgb(39, 39, 39), black);
+}
+
+.movie-search {
+    height: 30px;
+    width: calc(100vw - 600px);
+    margin-bottom: 40px;
+    border-radius: 2rem;
+    border: 1px solid lightgray;
+    padding-left: 10px;
+    outline: none;
+}
+
+
+
+.filters {
+    display: flex;
+}
+
+.rating-dropdown {
+    margin-left: 15px;
+    height: 30px;
+    width: 8rem;
+    outline: none;
+    border-radius: 1rem;
+}
